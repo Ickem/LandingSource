@@ -1,0 +1,68 @@
+.newsletter{
+    width: 100%;
+    background-color: #fff;
+    text-align: center;
+    height: 350px;
+    position: relative;
+}
+
+.newsletter h1{
+    font-size: 26px;
+    line-height: 40px;
+    color: #474e5d;
+    font-weight: 300;
+    padding-top: 70px;
+}
+
+.newsletter p{
+    font-size: 26px;
+    line-height: 30px;
+    color: #474e5d;
+    font-weight: 700;
+    margin-bottom: 55px;
+}
+
+input[type='email']{
+    width: 425px;
+    height: 60px;
+    border-radius: 30px 30px 30px 30px;
+    outline: none;
+    font-size: 26px;
+    padding-left: 30px;
+
+}
+
+
+
+::-webkit-input-placeholder {font-size: 21px;color: #bfbfbf;}
+::-moz-placeholder          {font-size: 21px;color: #bfbfbf;}/* Firefox 19+ */
+:-moz-placeholder           {font-size: 21px;color: #bfbfbf;}/* Firefox 18- */
+:-ms-input-placeholder      {font-size: 21px;color: #bfbfbf;}
+
+@media (max-width: 620px) {
+    .newsletter {
+        top: 590px;
+    }
+}
+
+@media (max-width: 460px) {
+    input[type='email'] {
+        width: 350px;
+    }
+
+    .newsletter img{
+        width: 100%;
+        height: auto;
+        max-width: 350px;
+    }
+}
+
+@media (max-width: 390px) {
+    input[type='email'] {
+        width: 250px;
+    }
+
+    .newsletter img{
+        max-width: 250px;
+    }
+}

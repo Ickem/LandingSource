@@ -1,0 +1,18 @@
+.clients{
+    width: 100%;
+    background-color: #f4f4f4;
+    text-align: center;
+    position: relative;
+}
+
+.clients img {
+    width: 100%;
+    height: auto;
+    min-width: 100px;
+}
+
+@media (max-width: 620px) {
+    .clients {
+        top: 590px;
+    }
+}
